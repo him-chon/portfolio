@@ -24,8 +24,12 @@ h3 {
     color: white;
 }
 
-p,li {
+li {
     color: rgb(163, 163, 163);
+}
+
+p {
+    color: white
 }
 
 /* TRANSITION */
@@ -281,6 +285,9 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    background-image: url(./assets/sydney_background.jpg);
+    background-size: cover;
+    background-color: black;
 }
 
 .about-containers,
@@ -301,7 +308,6 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    /*background: white;*/
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -313,11 +319,11 @@ section {
     height: 80%;
 }
 
-.section_pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
+/*.section_pic-container {*/
+/*    height: 400px;*/
+/*    width: 400px;*/
+/*    margin: auto 0;*/
+/*}*/
 
 /* EXPERIENCE SECTION */
 
@@ -328,7 +334,7 @@ section {
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -400,7 +406,6 @@ article .icon {
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
 }
