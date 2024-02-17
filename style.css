@@ -285,7 +285,7 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
-    background-image: url(./assets/sydney_background.jpg);
+    background-image: url(./assets/sydney_background_vig.jpg);
     background-size: cover;
     background-color: black;
 }
