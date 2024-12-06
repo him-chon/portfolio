@@ -1,5 +1,4 @@
 /* GENERAL */
-/* GENERAL */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -365,7 +364,7 @@ article .icon {
     cursor: default;
 }
 
-education-article {
+education_article {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
