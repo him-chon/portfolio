@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Sean (Chon K.)</div>
+        <div class="logo">Chon</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Sean (Chon K.)</div>
+        <div class="logo">Chon</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -42,8 +42,8 @@
         </div>
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
-            <h1 class="title">Sean</h1>
-            <p class="section_text_p2">Postgraduate Student</p>
+            <h1 class="title">Chon</h1>
+            <p class="section_text_p2">Master of IT Graduate</p>
             <div class="btn-container">
                 <button
                     class="btn btn-color-2"
@@ -99,16 +99,36 @@
                                 class="icon"
                         />
                         <h3>Education</h3>
-                        <p>Master of Information Technology<br />BEng in Nano-engineering</p>
+                        <education-article>
+                            <img
+                                    src="./assets/UNSW-logo-png-horizontal-crest-white.png"
+                                    alt="UNSW icon"
+                                    class="icon"
+                                    onclick="location.href='https://unsw.edu.au'"
+                            />
+                            <div>
+                                <p>Master of Information Technology, AI</p>
+                            </div>
+                        </education-article>
+                        <education-article>
+                            <img
+                                    src="./assets/Chula-logo.png"
+                                    alt="Chula icon"
+                                    class="icon"
+                                    onclick="location.href='https://www.chula.ac.th'"
+                            />
+                            <div>
+                                <p>Bachelor of Engineering</p>
+                            </div>
+                        </education-article>
                     </div>
                 </div>
                 <div class="text-container">
                     <p>
-                        I'm a postgraduate student at UNSW, studying Master of Information Technology with specialisation in Artificial Intelligence.
-                        I'm originally from Thailand and moved to Sydney, Australia in 2022. I have 1 year work experience in marketing and data analytics.
-                        Working with data was a huge part of my job and I loved it. I love coding, making reports, and creating dashboards.
-                        To further my career and move to a role where I do more technical things, I started my postgraduate study where I learned
-                        the fundamentals in familiar topics as well as something completely new, i.e. artificial intelligence and neural network.
+                        I recently graduated from the University of New South Wales, with a Master's degree in Information Technology and specialisation in Artificial Intelligence.
+                        My studies focus mainly on machine learning and data science, but I also have basic skills in programming, database and web frontend.
+                        My work experience is in marketing and data analytics in which is routinely work with data and I loved it. I love coding, making reports, and creating dashboards.
+                        I'm looking for a career involving data science and machine learning, and I'm eager to learn more in these areas.
                     </p>
                 </div>
             </div>
@@ -273,6 +293,16 @@
                                     class="icon"
                             />
                             <div>
+                                <h3>Jira</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                                    src="./assets/checkmark.png"
+                                    alt="Experience icon"
+                                    class="icon"
+                            />
+                            <div>
                                 <h3>Trello</h3>
                             </div>
                         </article>
@@ -323,16 +353,16 @@
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img
-                                src="./assets/iot_project.png"
-                                alt="IoT Server Client Project"
+                                src="./assets/rest_api_project.jpg"
+                                alt="Rest API Project"
                                 class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">IoT Server Client and P2P</h2>
+                    <h2 class="experience-sub-title project-title">Tourism Guide Generation by Gemini API for Deutsche Bahn</h2>
                     <div class="btn-container">
                         <button
                                 class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/him-chon/iot-server-client-py'"
+                                onclick="location.href='https://github.com/him-chon/Deutsche-Bahn-REST-API-Gemini-AI-API'"
                         >
                             Github
                         </button>
@@ -351,6 +381,64 @@
                         <button
                                 class="btn btn-color-2 project-btn"
                                 onclick="location.href='https://github.com/him-chon/Wifi-Analysis-UNSW'"
+                        >
+                            Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                                src="./assets/random_forest_project.jpg"
+                                alt="Random Forest KNN Linear Regression Project"
+                                class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Random Forest KNN Linear Regression for Car Insurance Dataset</h2>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/him-chon/Car-Insurance-Dataset-Random-Forest-KNN-Linear-Regression'"
+                        >
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                                src="./assets/iot_project.png"
+                                alt="IoT Server Client Project"
+                                class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">IoT Server Client and P2P</h2>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/him-chon/iot-server-client-py'"
+                        >
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                                src="./assets/maskrcnn_project.jpg"
+                                alt="Mask R-CNN Project"
+                                class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Mask R-CNN for Sea turtle Segmentation</h2>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/him-chon/Mask-R-CNN-for-Sea-turtle-segmentation'"
                         >
                             Github
                         </button>
@@ -426,14 +514,6 @@
     <section id="contact">
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img
-                        src="./assets/email.png"
-                        alt="Email icon"
-                        class="icon contact-icon email-icon"
-                />
-                <p><a href="mailto:chonkanchand@gmail.com">chonkanchand@gmail.com</a></p>
-            </div>
             <div class="contact-info-container">
                 <img
                         src="./assets/linkedin.png"

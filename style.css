@@ -364,6 +364,11 @@ article .icon {
     cursor: default;
 }
 
+education-article {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
 /* PROJECTS SECTION */
 
 #projects {
